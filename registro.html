@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="css/style.css">
+    <title>Escuela Patito</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>escuela mis primeras letras</h1>
+            <h3>preescolar</h2>
+        </div>
+    </header>
+    <nav>
+        <div class="logo">
+            <h3>mis primeras letras</h3>
+        </div>
+        <div class="divnav">
+            <a href="index.html">Inicio</a>
+            <a href="registro.html">Registrarse</a>
+            <a href="consulta.html">Consultar ID</a>
+            <a href="">Administrar</a>    
+        </div>
+    </nav>
+    <div class="formulario">
+        <form action="base.php" method="post">
+            <label for="nom">Nombre </label>
+            <input type="text"  name="nomb" id="nom" required="required" pattern="[A-Za-z]{1-60}">
+            <label for="nomTutor">Nombre del tutor </label>
+            <input type="text" name="nomTutor" id="nomTut" required="required" pattern="[A-Za-z]{1-60}">
+            <label for="fechaNiño">Fecha de nacimiento del niño </label>
+            <input type="date"  name="fechaNiño" id="fechaNiñ" min="2015-01-01" max="2018-12-31" required="required">
+            <label for="sex">Sexo del niño </label>
+            <input list="sexolist" name="sexoNiño" id="sexNiñ" required="required" pattern="[HM]{1}">
+            <datalist id="sexolist">
+                <option value="H"></option>
+                <option value="M"></option>
+            </datalist>
+            <label for="edad">Edad del niño </label>
+            <input type="number"  name="edNiño" id="edNiñ" min="3" max="6" required="required">
+            <label for="curp" class="curp">Curp </label>
+            <input type="text" name="curp" class="curp" id="cur" pattern="[A-Za-z0-9]{18}" required="required">
+            <input type="submit" value="Enviar">
+    </form>
+    </div>
+    <footer>
+        <div class="contenedor footer-content">
+            <div class="aa">
+                <h2>ESCUELA MIS PRIMERAS LETRAS</h2>
+            </div>
+            <div class="bb">
+                <p>Contacto: 2222222222</p>
+                <p>Dirección: Calle XXYY Col. XXYY</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

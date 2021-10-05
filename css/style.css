@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(to top, rgba(168, 237, 93, 0.4) 0%, rgba(254, 214, 227, 0.4) 50%), url(../img/coverheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.titulo{
+    text-align: center;
+    padding: 20%;
+    height: 100%;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.titulo h1{
+    font-size: 60px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+}
+.divnav{
+    padding-left: 25%;
+    width: 66%;
+    font-size: 17px;
+}
+.divnav a:hover{
+    background-color: #3E7D7A;
+}
+
+.logo{
+    width: 33%;   
+    background-image: url(../img/logo.jpeg);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+.logo h3{
+    padding-left: 33%;
+    padding-top: 7%;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;    
+    padding: 30px 15px;
+}
+footer{
+    display: block;
+    text-align: right;
+    padding-bottom: 0.1px;
+    background-color: #3E7D7A;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+footer .aa{
+    width: 40%;
+    text-align: left;
+}
+footer .bb{
+    text-align: left;
+    width: 30%;
+}
+.mivi{
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mivi p{
+    padding: 25px 0px;
+}
+.oferta{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.list1{
+    list-style: none;
+    padding: 20px;
+}
+
+.list1 li{
+    padding: 10px 0px;
+}
+
+.galeria{
+    display: block;
+    padding-left: 5%;
+}
+.galeria h2{
+    padding-right: 5%;
+    padding-bottom: 25px;
+}
+.gal{
+    object-fit: cover;
+    width: 31%;
+    padding: 15px;
+    display: inline;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    padding-top: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+form{
+    padding: 20px 25%;
+}
+input {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #3E7D7A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #24c01f;
+}
+.curp{
+    text-transform: uppercase;
+}
