@@ -1,9 +1,9 @@
 <?php
 header( 'Location: http://localhost/AplicWeb/prac1/#inicio' );
-$host="localhost";
-$user="root";
-$pass="";
-$db="dbp1";
+$host="us-cdbr-east-04.cleardb.com";
+  $user="bba7ba2004ed75";
+  $pass="8fcc9cd0";
+  $db="heroku_6b4cf65f4c17d8e";
 $coneccion=mysqli_connect($host,$user,$pass,$db) or die("Error conección");
 
 $folio=$_POST['folio'];
