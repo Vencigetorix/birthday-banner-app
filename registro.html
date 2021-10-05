@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet", href="css/style.css">
-    <title>Escuela Patito</title>
+    <title>Registro</title>
 </head>
 <body>
     <header>
         <div class="titulo">
-            <h1>escuela mis primeras letras</h1>
-            <h3>preescolar</h2>
+            <h1>APP CUMPLEAÑOS</h1>
+            <h3>Registro</h2>
         </div>
     </header>
-    <nav>
+    <!-- <nav>
         <div class="logo">
             <h3>mis primeras letras</h3>
         </div>
@@ -24,26 +24,42 @@
             <a href="consulta.html">Consultar ID</a>
             <a href="">Administrar</a>    
         </div>
-    </nav>
+    </nav> -->
     <div class="formulario">
         <form action="base.php" method="post">
             <label for="nom">Nombre </label>
-            <input type="text"  name="nomb" id="nom" required="required" pattern="[A-Za-z]{1-70}">
+            <input type="text"  name="nomb" id="nom" required="required" pattern="[A-Za-z]{1-60}">
+            <!-- <label for="nomTutor">Nombre del tutor </label>
+            <input type="text" name="nomTutor" id="nomTut" required="required" pattern="[A-Za-z]{1-60}"> -->
             <label for="fecha">Fecha de nacimiento del niño </label>
             <input type="date"  name="fecha" id="fechaNiñ" min="2015-01-01" max="2018-12-31" required="required">
-            <input type="submit" value="Enviar"> 
+            <label for="pas">Código de acceso </label>
+            <input type="password"  name="pass" id="pas" required="required">
+            <!-- <label for="sex">Sexo del niño </label>
+            <input list="sexolist" name="sexoNiño" id="sexNiñ" required="required" pattern="[HM]{1}">
+            <datalist id="sexolist">
+                <option value="H"></option>
+                <option value="M"></option>
+            </datalist>
+            <label for="edad">Edad del niño </label>
+            <input type="number"  name="edNiño" id="edNiñ" min="3" max="6" required="required">
+            <label for="curp" class="curp">Curp </label>
+            <input type="text" name="curp" class="curp" id="cur" pattern="[A-Za-z0-9]{18}" required="required">
+            -->
+            <!-- <input type="submit" value="Enviar">  -->
     </form>
     </div>
-    <footer>
+    <!-- <footer>
         <div class="contenedor footer-content">
             <div class="aa">
-                <h2>ESCUELA MIS PRIMERAS LETRAS</h2>
+                <h2>PREPARATORIA 2 DE OCTUBRE DE 1968 - WEB APPS
+                </h2>
             </div>
             <div class="bb">
-                <p>Contacto: 2222222222</p>
+                <p>Contacto: 2223668279</p>
                 <p>Dirección: Calle XXYY Col. XXYY</p>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
